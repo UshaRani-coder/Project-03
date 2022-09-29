@@ -1,0 +1,130 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing :border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+body{
+    width:100%;
+    height:100vh;
+    background-color:rgb(43,41,34);
+}
+.navbar-container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    margin-top: 30px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    color: #ffffff;
+
+}
+ul :first-child{
+    font-weight: 900;
+}
+li{
+   font-weight: 100;
+    padding: 0 30px;
+    font-size: 20px;
+
+   /* position: relative;
+    left:400px;
+    bottom:50px;*/
+
+
+}
+.button1  button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color:transparent ;
+    color: darkgoldenrod;
+    border-color: darkgoldenrod;
+    font-weight: 600;
+   /* position:relative;
+    left: 1050px;
+    bottom:340px;*/
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+h1{
+    color:#ffffff;
+    font-size:50px;
+    line-height: 70px;
+    margin-top: 30px;
+    margin-left: 70px;
+    font-weight: 900;
+}
+p{
+    color: #ffffff;
+   font-weight :100 ;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 30px;
+   /* position: relative;
+    left:650px;
+    bottom:120px;*/
+}
+.left-click{
+    width:40px;
+    height:40px;
+    background-color: transparent;
+    border-radius:50%;
+    border-color: darkgoldenrod;
+    color: darkgoldenrod;
+    position: relative;
+    left:1240px;
+    top:5px;
+    z-index:1;
+    
+}
+.right-click{
+    width:40px;
+    height:40px;
+    background-color: darkgoldenrod;
+    border-color: #ffffff;
+    border-radius:50%;
+    color: #ffffff;
+    position: relative;
+    top:5px;
+    left: 1255px;
+    z-index: 1;
+    
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    bottom:45px;
+}
+.empty1{
+    width:60px;
+    height:60px;
+   background-color: rgba(250,250,250,0.1);
+   border-color: transparent;
+    
+}
+.empty2{
+    width:60px;
+    height:60px;
+    background-color: darkgoldenrod;
+    border-color: transparent;
+
+}
+.image{
+    margin-top: 30px;
+}
+
+    
